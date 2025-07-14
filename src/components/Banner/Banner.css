@@ -1,0 +1,9 @@
+.banner {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.banner-item {
+    max-height: 31rem;
+    object-fit: cover;
+}
