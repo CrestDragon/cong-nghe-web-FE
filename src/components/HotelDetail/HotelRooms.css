@@ -1,0 +1,52 @@
+.hotelRooms {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border-top: solid 1px lightgray;
+    padding-top: 2%;
+}
+
+.hotelRoomsTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(90, 90, 90)
+}
+
+.searchRoom {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchRoom .checkio-btn {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.roomType {
+    display: flex;
+    justify-content: center;
+}
+
+.roomTypeItem {
+    cursor: pointer;
+    padding: 2%;
+    margin: 0 2% 2% 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    text-decoration: none;
+}
+
+.roomTypeTitle {
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(90, 90, 90)
+}
+.roomTypeDesc {
+    font-size: 1rem;
+    color: rgb(90, 90, 90);
+    margin-bottom: 1%;
+}

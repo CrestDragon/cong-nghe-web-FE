@@ -1,0 +1,45 @@
+div,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Open Sans", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  font-size: 0.8rem;
+}
+
+button {
+  font-family: "Open Sans", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  font-size: 0.8rem;
+}
+
+html {
+  font-size: 100%;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 35%;
+  }
+}

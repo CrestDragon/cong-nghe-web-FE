@@ -1,0 +1,42 @@
+.suggest-home {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.suggestItem {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    color: white;
+    overflow: hidden;
+}
+
+.suggestImg {
+    width: 100%;
+    height: 100%;
+    height: 12.5rem;
+    object-fit: cover;
+}
+
+.suggestName {
+    display: flex;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.suggestDesc {
+    display: flex;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+}
+
+.suggestCost {
+    display: flex;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
