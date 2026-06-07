@@ -1,0 +1,106 @@
+.hotelListContainer {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotelListTitle {
+    color: rgb(90, 90, 90);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.sort{
+    margin-top: 3%;
+    padding: 0;
+    position: relative;
+}
+
+.sortOptions {
+    font-size: 1rem;
+    margin-top: 1%;
+    max-width: 5rem;
+}
+
+.buttonSort {
+    display: flex;
+    align-items: center;
+    padding: 0 1.6rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    width: max-content;
+    color: rgb(1, 127, 158);
+    background-color: white;
+    border: solid 0.1rem rgb(1, 127, 158);
+    border-radius: 1.2rem;
+}
+
+.buttonSort.dropdown-toggle::after{
+    margin-left: 10px;
+}
+
+.hotelListItem {
+    cursor: pointer;
+    padding: 2%;
+    margin-bottom: 3%;
+    display: flex;
+    color: rgb(90, 90, 90);
+    overflow: hidden;
+    border: 0.1rem solid lightgray;
+    justify-content: space-between;
+}
+
+.hotelItemImg {
+    width: 100%;
+    max-width: 12.5rem;
+    height: 100%;
+    max-height: 12.5rem;
+    object-fit: cover;
+}
+
+.hotelItemName {
+    display: flex;
+    color: rgb(1, 127, 158);
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.hotelItemName:hover {
+    color: rgb(90, 90, 90);
+}
+
+.hotelItemDesc {
+    display: flex;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2%;
+}
+
+.hotelItemAddr {
+    display: flex;
+    font-size: 0.8rem;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.hotelItemCost {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.hotelItemRating {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+
+.hotelItemRating {
+    color: #febb02;
+}

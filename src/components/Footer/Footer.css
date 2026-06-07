@@ -1,0 +1,55 @@
+.footer {
+    background-color: rgb(124, 124, 124);
+}
+
+.text-footer {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5%;
+}
+
+.style-col {
+    margin: 1% 2% 3% 2%;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.divider {
+    width: 100%;
+    max-width: 2rem;
+    height: 0.3rem;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    opacity: 50%;
+}
+
+.title-text {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+.signature {
+    background-color: rgb(107, 107, 107);
+    padding: 1%;
+    padding-left: 7%;
+    opacity: 70%;
+    font-weight: bold;
+}

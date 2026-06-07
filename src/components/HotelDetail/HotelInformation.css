@@ -1,0 +1,111 @@
+.hotelInformation {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border-top: solid 1px lightgray;
+    padding-top: 2%;
+}
+
+.hotelName {
+    display: flex;
+    color: rgb(1, 127, 158);
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hotelName:hover {
+    color: rgb(90, 90, 90);
+}
+
+.hotelDesc {
+    display: flex;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.hotelTitle {
+    display: flex;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.hotelAddr {
+    display: flex;
+    font-size: 1rem;
+    color: rgb(90, 90, 90);
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.hotelCost {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.hotelCostNormal {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: rgb(90, 90, 90);
+    background-color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.hotelRating {
+    display: flex;
+    align-items: center;
+    color: rgb(90, 90, 90);
+    font-size: 1rem;
+}
+
+.hotelIconRating {
+    color: #febb02;
+}
+
+.hotelAmenities {
+    border-radius: 10px;
+    background-color: rgba(207, 233, 238, 0.5);
+    padding: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+    height: fit-content;
+    color: rgb(90, 90, 90);
+    
+}
+
+.hotelAmenitiesItem {
+    display: flex;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 3%;
+    color: rgb(90, 90, 90);
+    align-items: center;
+}
+
+.hotelAmenitiesText {
+    display: flex;
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgb(90, 90, 90);
+    align-items: center;
+}
+
+.hotelAmenitiesIcon {
+    display: flex;
+    max-height: 1rem;
+    height: 100%;
+    color: rgb(90, 90, 90);
+    align-items: center;
+}
