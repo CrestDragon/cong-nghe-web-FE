@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="signature">
           <div className="container">
             <p className="text-footer">
-              Copyright 2023 © LongTT - Booking Web App{" "}
+              Copyright 2025 © LongTT - Booking Web App{" "}
             </p>
           </div>
         </div>
