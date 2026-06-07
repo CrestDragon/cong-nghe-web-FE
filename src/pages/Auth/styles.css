@@ -1,0 +1,63 @@
+.auth-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-image: url("../../assets/images/authBackground.jpg");
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.auth-contain {
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: 0.1rem solid lightgray;
+  border-radius: 0.6rem;
+  padding: 3%;
+}
+
+.auth-title {
+  font-size: 2rem;
+  color: rgb(90, 90, 90);
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.auth-item {
+  width: 100%;
+}
+
+.auth-property {
+  margin: 2% 0;
+  font-size: 1rem;
+  color: rgb(90, 90, 90);
+  font-weight: bold;
+}
+
+.auth-text {
+  font-size: 1rem;
+  color: rgb(90, 90, 90);
+  font-weight: normal;
+}
+
+.auth-navigate-signup {
+  margin-top: 5%;
+  font-size: 1rem;
+  color: rgb(90, 90, 90);
+}
+
+.navigate-signup {
+  font-size: 1rem;
+  color: rgb(90, 90, 90);
+}
+
+.navigate-signup:hover {
+  color: black;
+}

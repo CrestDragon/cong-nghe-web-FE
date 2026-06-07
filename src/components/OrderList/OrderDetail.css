@@ -1,0 +1,46 @@
+.orderDetail{
+    min-height: 3rem;
+    color: rgb(90, 90, 90);
+    padding: 2% 1% 1% 1%;
+    margin: 0 1%;
+    border-bottom: 0.1rem solid lightgray;
+}
+
+.orderHotel {
+    display: flex;
+    align-items: center;
+    color: rgb(90, 90, 90);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.orderDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(90, 90, 90);
+}
+
+.orderText {
+    display: flex;
+    align-items: center;
+    color: rgb(90, 90, 90);
+    font-size: 1rem;
+}
+
+.orderTotal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(90, 90, 90);
+    font-size: 1rem;
+}
+
+.orderIcon {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: red;
+    height: 1rem;
+}

@@ -1,0 +1,22 @@
+.roomTypeItem {
+    cursor: pointer;
+    padding: 2%;
+    margin: 0 2% 2% 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    text-decoration: none;
+}
+
+.roomTypeTitle {
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(90, 90, 90)
+}
+.roomTypeDesc {
+    font-size: 1rem;
+    color: rgb(90, 90, 90);
+    margin-bottom: 1%;
+}
