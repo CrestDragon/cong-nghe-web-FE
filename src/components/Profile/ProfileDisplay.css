@@ -1,0 +1,122 @@
+.profile {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleProfile {
+    color: rgb(90, 90, 90);
+    margin-top: 1%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.textPersonalContain{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textUser {
+    color: rgb(90, 90, 90);
+    margin-bottom: 1%;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.accountInformation {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.avatarIcon{
+    position: relative;
+    color: grey;
+    padding: 0;
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 9rem;
+}
+
+.uploadAvatarIcon {
+    color: grey;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.uploadAvatarIcon:hover {
+    color:rgb(1, 127, 158);
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textTitleProfile {
+    color: rgb(90, 90, 90);
+    margin-top: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.textDetail {
+    color: rgb(90, 90, 90);
+    font-size: 1rem;
+}
+
+.buttonBox {
+    margin-top: 2%;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    max-height: 3rem;
+    height: 3rem;
+    gap: 2rem;
+}
+
+
+.submitButton {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(1, 127, 158);
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.titleLineProfile {
+    width: 100%;
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: solid 1px lightgray;
+    margin-top: 2%;
+    padding: 2% 0 1% 0;
+}
+
+.changePassword {
+    color: rgb(90, 90, 90);
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 0.8;
+    display: flex;
+    align-self: flex-end;
+}
+
+.changePassword:hover {
+    cursor: pointer;
+    opacity: 1;
+    color: black;
+}
